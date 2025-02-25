@@ -30,7 +30,7 @@ __webpack_require__.r(__webpack_exports__);
 const companyName = '优莱克';
 const companyDesc = '电子产品设计制造集成服务商';
 const companyKeywords =
-  'PCBA加工厂,ULIKE,优莱克，SMT贴片加工,插件加工，线路板，电路板，PCBA代工代料，PCBA包工包料，tv box,A20,A31S,PCBA,RK3368,RK3168,RK3268,瑞星微';
+  'PCBA加工厂,ULIKE,优莱克，SMT贴片加工,插件加工，线路板，电路板，PCBA设计制造集成，PCBA包工包料，tv box,A20,A31S,PCBA,RK3368,RK3168,RK3268,瑞星微';
 
 const companyDescription =
   '优莱克，ULIKE，smt工厂,PCBA工厂,PCB线路板,贴片加工,插件加工，研发设计pcb,样品制作，小批量生产';

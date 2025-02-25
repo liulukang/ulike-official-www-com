@@ -117,7 +117,7 @@ __webpack_require__.r(__webpack_exports__);
 const companyName = '优莱克';
 const companyDesc = '电子产品设计制造集成服务商';
 const companyKeywords =
-  'PCBA加工厂,ULIKE,优莱克，SMT贴片加工,插件加工，线路板，电路板，PCBA代工代料，PCBA包工包料，tv box,A20,A31S,PCBA,RK3368,RK3168,RK3268,瑞星微';
+  'PCBA加工厂,ULIKE,优莱克，SMT贴片加工,插件加工，线路板，电路板，PCBA设计制造集成，PCBA包工包料，tv box,A20,A31S,PCBA,RK3368,RK3168,RK3268,瑞星微';
 
 const companyDescription =
   '优莱克，ULIKE，smt工厂,PCBA工厂,PCB线路板,贴片加工,插件加工，研发设计pcb,样品制作，小批量生产';
@@ -11344,7 +11344,7 @@ function addNumericSeparator(num, str) {
     return $replace.call(str, sepRegex, '$&_');
 }
 
-var utilInspect = __webpack_require__(/*! ./util.inspect */ 20);
+var utilInspect = __webpack_require__(/*! ./util.inspect */ 27);
 var inspectCustom = utilInspect.custom;
 var inspectSymbol = isSymbol(inspectCustom) ? inspectCustom : null;
 
@@ -18649,7 +18649,7 @@ module.exports = "/_next/static/images/qrcode_ad3acbb.jpg";
 
 /***/ }),
 
-/***/ 16:
+/***/ 23:
 /*!******************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fliulukang%2FDesktop%2Fgitee%2Fulike-official-site%2Fpc%2Fpages%2Fabout%2Findex.js ***!
   \******************************************************************************************************************************************************************/
@@ -18661,7 +18661,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fabout&
 
 /***/ }),
 
-/***/ 20:
+/***/ 27:
 /*!********************************!*\
   !*** ./util.inspect (ignored) ***!
   \********************************/
@@ -18683,5 +18683,5 @@ module.exports = dll_ca9aa6f5ae27105e5ffb;
 
 /***/ })
 
-},[[16,"static/runtime/webpack.js","styles"]]]);
+},[[23,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=about.js.map

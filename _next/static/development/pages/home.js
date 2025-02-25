@@ -30,7 +30,7 @@ __webpack_require__.r(__webpack_exports__);
 const companyName = '优莱克';
 const companyDesc = '电子产品设计制造集成服务商';
 const companyKeywords =
-  'PCBA加工厂,ULIKE,优莱克，SMT贴片加工,插件加工，线路板，电路板，PCBA代工代料，PCBA包工包料，tv box,A20,A31S,PCBA,RK3368,RK3168,RK3268,瑞星微';
+  'PCBA加工厂,ULIKE,优莱克，SMT贴片加工,插件加工，线路板，电路板，PCBA设计制造集成，PCBA包工包料，tv box,A20,A31S,PCBA,RK3368,RK3168,RK3268,瑞星微';
 
 const companyDescription =
   '优莱克，ULIKE，smt工厂,PCBA工厂,PCB线路板,贴片加工,插件加工，研发设计pcb,样品制作，小批量生产';
@@ -222,27 +222,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "business", function() { return business; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "partner", function() { return partner; });
 const title =
-  '专注于为企业提供PCBA代工，PCB 2-8层板生产、元器件采购、SMT贴片焊接、DIP插件焊接、测试、组装、塑胶磨具的制作、塑胶五金件的生产全套一站式电子产品代工服务 ';
+  '专注于为企业提供设计制造集成支持，PCBA电路板研发设计、SMT贴片焊接、DIP插件焊接、测试服务、成品组装、塑胶模具设计与制作的全套一站式电子产品解决方案';
 
 const solution = {
   title: '产品和解决方案',
   dataSource: [
     {
-      title: 'PCBA设计生产',
-      des: '多层高精密快板PCBA方案设计、研发',
+      title: 'PCBA电路板研发设计',
+      des: '硬件开发、方案优化、产品原型开发与功能验证、制造生产全流程‌',
       icon: 'iconfont iconzhaopin',
     },
-    { title: 'SMT贴片焊接', des: '完全独立的全自动贴片线', icon: 'iconfont iconmanage' },
-    { title: 'DIP插件焊接', des: '高效完善的生成流程', icon: 'iconfont iconjiedaishenqing' },
-    { title: '元器件采购', des: '原厂一级代理', icon: 'iconfont iconresources-h' },
+    { title: 'SMT贴片焊接', des: '高精度贴装、BGA/CSP工艺', icon: 'iconfont iconmanage' },
+    { title: 'DIP插件焊接', des: '通孔插件、手工补焊及检测', icon: 'iconfont iconjiedaishenqing' },
+    // { title: '元器件采购', des: '原厂一级代理', icon: 'iconfont iconresources-h' },
     {
-      title: '组装测试',
-      des: '智能监测 + 人工并轨模式',
+      title: '‌测试服务',
+      des: 'ICT/FCT测试、老化测试、可靠性验证',
+      icon: 'iconfont iconresources-h ',
+    },
+    {
+      title: '‌成品组装',
+      des: '结构件装配、整机集成、配套生产服务‌',
       icon: 'iconfont icontishengzhuanhuashuai',
     },
     {
-      title: '塑胶注塑磨具',
-      des: '塑胶、压铸、铝合金外壳磨具及产品生产',
+      title: '塑胶模具设计与制作',
+      des: '注塑成型、塑胶/五金件定制生产、精密冲压、CNC加工',
       icon: 'iconfont iconpeixun ',
     },
   ],
@@ -282,13 +287,18 @@ const advantage = {
   desc: '优莱克以专业专注、守时守信 为公司理念，竭力为合作客户 商提供专业的整体解决方案',
   dataSource: [
     {
+      title: '多合作模式‌',
+      iconPosition: '0px 460px',
+      desc: '‌OEM代工‌，按客户需求标准化生产。ODM开发‌，提供从设计到量产的一站式方案',
+    },
+    {
       title: '快速交付能力',
-      iconPosition: '0px 230px',
+      iconPosition: '0px 115px',
       desc: '客户在提供资料24小时内提供报价，确认订单材料最快4小时内交付',
     },
     {
       title: '精细化管理',
-      iconPosition: '0px 460px',
+      iconPosition: '0px 230px',
       desc: '客户主管、技术主管、质检主管，精细化运营管理，为客 户提供安全放心的服务保障。',
     },
     {
@@ -303,7 +313,7 @@ const advantage = {
     },
     {
       title: '全时服务咨询',
-      iconPosition: '0px 115px',
+      iconPosition: '0px 460px',
       desc: '7*16 小时服务咨询',
     },
   ],
